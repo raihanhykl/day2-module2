@@ -1,0 +1,182 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-color: black;
+
+  font-size: 10px;
+  color: white;
+  justify-content: space-between;
+  /* padding: 0px 10px; */
+  position: sticky;
+  top: 0px;
+  /* margin: 0px; */
+  height: 20px;
+}
+.navbar {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  letter-spacing: 2px;
+  height: 1rem;
+  margin: auto;
+  max-width: 2000px;
+  width: 100%;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.navbar-item {
+  width: 70px;
+  text-align: center;
+  margin: 0px;
+}
+.navbar-item:hover {
+  background-color: white;
+  color: black;
+  margin: 0px;
+}
+.carousel {
+  display: flex;
+  /* background-image: url("https://imgsrv2.voi.id/jKP80eHE_Bf-yoZbvSpQYq0rxJ4QZZQCX1Uqt14n7xQ/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yOTUzOS8yMDIxMDEyOTEzMzYtbWFpbi5jcm9wcGVkXzE2MTE5MDIyMTEuanBn.jpg"); */
+  /* height: 80vh; */
+  width: 100%;
+  margin: 0px;
+  align-items: end;
+  justify-content: center;
+  background-repeat: no-repeat;
+  max-width: 2000px;
+  margin: auto;
+  position: relative;
+}
+.text {
+  margin: 0px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 2px black;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 10%;
+}
+.content {
+  width: 700px;
+  text-align: center;
+  /* margin: 50px 205px; */
+  height: auto;
+  margin: auto;
+}
+.theBand {
+  text-align: justify;
+}
+.head {
+  text-align: center;
+  font-size: small;
+  margin: 25px;
+}
+.head > h2 {
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.band-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.calendar {
+  position: relative;
+  background-color: white;
+  color: grey;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+.calendar > p {
+  margin: 5px 10px;
+}
+
+.tour {
+  align-items: center;
+  background-color: black;
+  height: auto;
+  color: white;
+}
+.container {
+  width: 700px;
+  /* margin: 0px 205px; */
+  padding: 25px;
+  margin: auto;
+}
+.sold-out {
+  font-size: 10px;
+  color: white;
+  background-color: red;
+  height: 10px;
+  width: 45px;
+}
+
+.sold1 {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+.sold2 {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.tiga {
+  position: absolute;
+  text-align: center;
+  width: 18px;
+  height: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  bottom: 8px;
+  right: 5px;
+}
+.tour-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 0px;
+}
+.card {
+  position: relative;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  width: 225px;
+  height: 360px;
+}
+
+.card > p {
+  padding: 0px 10px;
+  font-weight: lighter;
+}
+.buy-btn {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 22px;
+  text-align: center;
+  padding: 10px;
+  left: 11px;
+  bottom: 5px;
+}
+
+.buy-btn:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 225px;
+  height: 150px;
+}
+.card-img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
